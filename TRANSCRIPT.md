@@ -215,7 +215,7 @@ Add components one by one and skip combobox. Or switch to default style in `comp
 ---
 
 ### User
-[Same combobox error]
+Use shadcn library in order to refactor `DashboardPage.tsx` with approriate components
 
 ### Assistant
 Adding shadcn components individually, excluding combobox.
