@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme (default) */
+:root {
+  --casa-bg: #F5F5F7;
+  --casa-card: #FFFFFF;
+  --casa-card-inner: #F0F0F2;
+  --casa-border: #E5E5E7;
+  --casa-text: #1A1A1A;
+  --casa-muted: #6B7280;
+  --casa-accent: #F5A623;
+  --casa-accent-text: #0F0E17;
+  --casa-green: #2ECC71;
+  --casa-red: #E74C3C;
+  --popover: 0 0% 100%;
+}
+
+/* Dark theme */
+.dark {
+  --casa-bg: #0F0E17;
+  --casa-card: #1A1927;
+  --casa-card-inner: #0F0E17;
+  --casa-border: #2D2B40;
+  --casa-text: #FFFFFE;
+  --casa-muted: #6B6880;
+  --casa-accent: #F5A623;
+  --casa-accent-text: #0F0E17;
+  --casa-green: #2ECC71;
+  --casa-red: #E74C3C;
+  --popover: 240 10% 10%;
+}
+
+@layer base {
+  body {
+    background-color: var(--casa-bg);
+    color: var(--casa-text);
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.2s, color 0.2s;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--casa-card); }
+::-webkit-scrollbar-thumb { background: var(--casa-border); border-radius: 2px; }

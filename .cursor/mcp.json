@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "another-server": {
+      "command": "npx",
+      "args": ["-y", "package-name", "mcp"],
+      "env": { "API_KEY": "your-key" }
+    }
+  }
+}
