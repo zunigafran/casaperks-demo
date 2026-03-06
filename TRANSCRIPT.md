@@ -4,8 +4,6 @@ Combined transcript from five chat sessions, in chronological order.
 
 ---
 
-## Session 1 — [32847fca-9de1-4362-b1b8-644e2328071b](32847fca-9de1-4362-b1b8-644e2328071b)
-
 ### User
 Is there a way to combine Resident, Transaction, and Giftcard so that it is to 1 user?
 
@@ -232,8 +230,6 @@ Replaced the custom theme toggle with a shadcn DropdownMenu theme switcher (Ligh
 
 ---
 
-## Session 2 — [27bad174-9387-4a57-b173-0af960fd9536](27bad174-9387-4a57-b173-0af960fd9536)
-
 ### User
 Fix `backend/src/data/mockData.ts`, keep seed data — complexes.
 
@@ -258,8 +254,6 @@ Added `/api/residents/me/complex` route. Added `Complex` interface and `api.getM
 
 ---
 
-## Session 3 — [92afb1a0-2492-469e-8683-ef43f360d5b2](92afb1a0-2492-469e-8683-ef43f360d5b2)
-
 ### User
 How do I add the imageURL as the background for the card on `frontend/src/pages/DashboardPage.tsx` lines 222–255?
 
@@ -267,8 +261,6 @@ How do I add the imageURL as the background for the card on `frontend/src/pages/
 Added `card.imageUrl` as the Card background via inline styles (`backgroundImage`, `backgroundSize`, `backgroundPosition`). Added overlay `bg-black/50 backdrop-blur-[2px]` for readability. Added `overflow-hidden` to the Card.
 
 ---
-
-## Session 4 — [3a7654c1-c721-4eb0-9a1e-bf5e6b8ce1ed](3a7654c1-c721-4eb0-9a1e-bf5e6b8ce1ed)
 
 ### User
 Remove all text-casa properties in the file and change to respective color properties.
@@ -285,8 +277,6 @@ Change app font to Montserrat.
 Updated `index.html` (Google Fonts link), `index.css` (body font), and `tailwind.config.js` (font-display, font-body) to use Montserrat.
 
 ---
-
-## Session 5 — [9e054d0a-b445-4a28-80b1-45c4f92e6593](9e054d0a-b445-4a28-80b1-45c4f92e6593)
 
 ### User
 Does this project meet this challenge?
